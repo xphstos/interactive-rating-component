@@ -79,12 +79,12 @@
 		flex: 0 0 3.5rem;
 
 		&:hover {
-			background-color: v('accent');
-			color: v('white');
+			background-color: adjust-color(c('off-black'), $lightness: 20%);
 		}
 
 		&[data-selected='true'] {
-			background-color: adjust-color(c('off-black'), $lightness: 20%);
+			background-color: v('accent');
+			color: v('white');
 		}
 	}
 
